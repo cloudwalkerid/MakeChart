@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="403.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="makechart.Menu.PopUp.LookDataSourceController">
+   <children>
+      <TableView fx:id="obTableView" layoutX="15.0" layoutY="73.0" prefHeight="319.0" prefWidth="730.0" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" maxWidth="1.7976931348623157E308" text="Nama : " />
+      <Label layoutX="14.0" layoutY="41.0" text="Deskripsi :" />
+      <Label fx:id="name" layoutX="79.0" layoutY="14.0" text="Label" />
+      <Label fx:id="desc" layoutX="79.0" layoutY="41.0" text="Label" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="550.0" style="-fx-background-color: #757575;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="makechart.Menu.MakeGrafikMenuController">
+   <children>
+      <Label layoutX="30.0" layoutY="14.0" text="Sumber Data" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Button fx:id="openAddDataSourceButton" layoutX="459.0" layoutY="355.0" mnemonicParsing="false" text="Add new" />
+      <TableView fx:id="obTableView" layoutX="29.0" layoutY="45.0" prefHeight="298.0" prefWidth="493.0" />
+   </children>
+</AnchorPane>
